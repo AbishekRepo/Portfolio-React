@@ -1,6 +1,25 @@
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 import Resume from "../assets/Abishek-2022 -  Front End Wed dev.pdf";
 
 const About = () => {
+  const typeTarget = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      strings: ["YouTuber", "Developer", "Blogger", "Freelancer"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
+    };
+
+    const typed = new Typed(typeTarget.current, options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <section className="about" id="about">
       <div className="max-width">
@@ -11,7 +30,8 @@ const About = () => {
           </div>
           <div className="column right">
             <div className="text">
-              I'm Abishek and I'm a <span className="typing-2"></span>
+              I'm Abishek and I'm a{" "}
+              <span className="typing-2" ref={typeTarget}></span>
             </div>
             <p>
               Web Design is fun. It's creative. It gives you a huge
