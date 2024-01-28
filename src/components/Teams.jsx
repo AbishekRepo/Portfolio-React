@@ -1,9 +1,21 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Teams = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
+
   return (
     <section className="teams" id="teams">
       <div className="max-width">
         <h2 className="title">My Projects</h2>
-        <div className="carousel owl-carousel">
+        <Slider className="carousel owl-carousel" {...settings}>
           <div className="card">
             <div className="box">
               <a
@@ -53,7 +65,7 @@ const Teams = () => {
                 <img src="Layer4.png" alt="Budget App" />
               </a>
               <div className="text">Budget Calc</div>
-              <p>Budget Calculator with local storage.</p>
+              <p>Budget Calculator with local storage. Calc Budget</p>
             </div>
           </div>
           <div className="card">
@@ -69,7 +81,7 @@ const Teams = () => {
               <p>Instant joke teller uing voice note. Click & laugh</p>
             </div>
           </div>
-        </div>
+        </Slider>
         <a
           href="https://my-project-site-refer.netlify.app/"
           target="_blank"
