@@ -1,0 +1,35 @@
+[
+  {
+    "CompanyName": "Toppan Merrill Technology",
+    "subtitle": "Junior Web Developer",
+    "startDate": "2018/08/01",
+    "endDate": "2022/08/24",
+    "currentlyWorking": false,
+    "description": [
+      "Worked as a Junior Web Developer, gaining foundational experience in web development and contributing to projects."
+    ],
+    "active": false
+  },
+  {
+    "CompanyName": "Future Focus Infotech",
+    "subtitle": "Web Developer",
+    "startDate": "2022/08/24",
+    "endDate": "2024/01/01",
+    "currentlyWorking": false,
+    "description": [
+      "Served as a Web Developer, honing skills and expanding expertise in web development within a dynamic environment."
+    ],
+    "active": false
+  },
+  {
+    "CompanyName": "Tata Consultancy Services",
+    "subtitle": "Senior Web Developer",
+    "startDate": "2024/01/10",
+    "endDate": "",
+    "currentlyWorking": true,
+    "description": [
+      "Excelled as a Senior Web Developer, demonstrating advanced proficiency and leadership in web development projects for a prestigious organization."
+    ],
+    "active": false
+  }
+]

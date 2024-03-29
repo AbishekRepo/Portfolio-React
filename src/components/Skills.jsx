@@ -27,7 +27,7 @@ const Skills = () => {
             <div className="bars">
               <div className="info">
                 <span>CSS</span>
-                <span>60%</span>
+                <span>80%</span>
               </div>
               <div className="line css"></div>
             </div>
@@ -41,6 +41,13 @@ const Skills = () => {
             <div className="bars">
               <div className="info">
                 <span>React</span>
+                <span>80%</span>
+              </div>
+              <div className="line mysql"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>Next</span>
                 <span>70%</span>
               </div>
               <div className="line mysql"></div>

@@ -2,6 +2,8 @@ import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Resume from "../assets/Abishek-2022 -  Front End Wed dev.pdf";
 
+import Experience from "./Experience";
+
 const About = () => {
   const typeTarget = useRef(null);
 

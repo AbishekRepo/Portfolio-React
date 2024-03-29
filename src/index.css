@@ -57,7 +57,17 @@ section .title {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
+  margin-top: 20px;
   margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+section .experience {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
   padding-bottom: 20px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -220,6 +230,9 @@ section .title::after {
 /* about section styling */
 .about .title::after {
   content: "who i am";
+}
+.about .experience::after {
+  content: "what i am";
 }
 .about .about-content .left {
   width: 45%;
@@ -694,4 +707,41 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+/* Experience */
+
+.experience-section section {
+  padding: 10px;
+}
+
+.experience-section > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-section article {
+  max-width: 152px;
+}
+
+.experience-section {
+  color: #fff;
+  background: #111;
+}
+
+.experience-section .title::before {
+  background: #fff;
+}
+
+.experience-section .title::after {
+  content: "Work History";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #111;
+  transform: translateX(-50%);
 }
