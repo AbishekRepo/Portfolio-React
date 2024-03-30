@@ -2,14 +2,12 @@ import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Resume from "../assets/Abishek-2022 -  Front End Wed dev.pdf";
 
-import Experience from "./Experience";
-
 const About = () => {
   const typeTarget = useRef(null);
 
   useEffect(() => {
     const options = {
-      strings: ["YouTuber", "Developer", "Blogger", "Freelancer"],
+      strings: ["Developer", "Blogger", "Freelancer"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
@@ -23,7 +21,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="about" id="about">
+    <section className="about" id="aboutMe">
       <div className="max-width">
         <h2 className="title">About me</h2>
         <div className="about-content">

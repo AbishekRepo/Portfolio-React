@@ -14,7 +14,7 @@ const Experience = () => {
   };
 
   return (
-    <section className="experience-section">
+    <section className="experience-section" id="experience">
       <h2 className="title experience">Experience</h2>
       <Timeline lang="en" theme={customTheme} dateFormat="short" collapse>
         {experiences.map((experience, index) => (

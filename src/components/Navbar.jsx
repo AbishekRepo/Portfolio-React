@@ -32,13 +32,18 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#about" className="menu-btn">
+            <a href="#aboutMe" className="menu-btn">
               About
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#services" className="menu-btn">
               Services
+            </a>
+          </li> */}
+          <li>
+            <a href="#experience" className="menu-btn">
+              Experience
             </a>
           </li>
           <li>
